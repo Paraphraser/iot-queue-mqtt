@@ -90,7 +90,7 @@ Before you compile the sketch, you should edit `Defines.h` and set values for th
 
 Derived values:
 
-- `OTA_Host_Name` defaults to the value you set for [`WIFI_DHCP_ClientID`](#dhcpClientID). This is the name you will see in the Arduino IDE for OTA operations. You can set a different name if you wish but you should respect the rules for DNS names because this the value you set here is used to construct the board's mDNS name.
+- `OTA_Host_Name` defaults to the value you set for [`WIFI_DHCP_ClientID`](#dhcpClientID). This is the name you will see in the Arduino IDE for OTA operations. You can set a different name if you wish but you should respect the rules for DNS names because the value you set here is used to construct the board's mDNS name.
 - <a name="mqttClientID"></a>`MQTTClientID` also defaults to the value you set for [`WIFI_DHCP_ClientID`](#dhcpClientID). This string appears in the second field of MQTT topic strings.
 
 ## MQTT topics
